@@ -1,0 +1,27 @@
+.title-underline{
+	width: 120px;
+	height: 10px;
+}
+.height-50{
+	min-height: 50vh;
+}
+.height-80{
+	min-height: 80vh;
+}
+.image{
+	background-image: url(images/about3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: -400px -80px;
+}
+
+@media screen and (max-width: 500px){
+	.image{
+		background-image: url(images/about3.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: -250px -80px;
+	}
+} 
